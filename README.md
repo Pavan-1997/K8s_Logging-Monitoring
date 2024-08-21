@@ -14,3 +14,10 @@ k edit deploy metrics-server -n kube-system
 Pass the argument `--kubelet-insecure-tls` as below
 
 ![image](https://github.com/user-attachments/assets/46549e68-840a-4be4-a50f-84dc2a687041)
+
+3. Check the metrics server
+```
+k top node
+```
+
+![image](https://github.com/user-attachments/assets/02c6f62b-802d-47d7-924d-20ccee190c97)
